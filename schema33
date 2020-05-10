@@ -1,0 +1,3 @@
+net4=pandapower.networks.case4gs()
+df=pd.DataFrame(net4.load)
+df = df.drop(index=[0])
